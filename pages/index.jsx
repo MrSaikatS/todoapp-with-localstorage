@@ -1,7 +1,9 @@
+import TodoDisplay from "../components/TodoDisplay";
+
 const index = () => {
 	return (
 		<>
-			<div className=''>index</div>
+			<TodoDisplay />
 		</>
 	);
 };
