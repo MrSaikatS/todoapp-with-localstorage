@@ -9,7 +9,7 @@ const CardTodo = ({ id, text }) => {
 	const [todolist, setTodolist] = useAtom(TodoAtom);
 
 	const delItem = (id) => {
-		const updatedTodo = todolist.filter((item, index) => {
+		const updatedTodo = todolist.filter((todolist, index) => {
 			return index !== id;
 		});
 

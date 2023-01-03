@@ -2,6 +2,7 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 import { useAtom } from "jotai";
 import { useState } from "react";
 import TodoAtom from "../jotaiAtoms/TodoAtom";
+import DarkSwitch from "./DarkSwitch";
 
 const Create = () => {
 	const [input, setInput] = useState("");
@@ -21,6 +22,8 @@ const Create = () => {
 	return (
 		<>
 			<div className='bg-gray-300 rounded-lg'>
+				<DarkSwitch />
+
 				<div className='text-center py-2'>Add Todo Here</div>
 
 				<div className='grid grid-flow-col gap-3 p-4'>
