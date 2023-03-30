@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@headlessui/react": "1.7.13",
-		"@heroicons/react": "2.0.16",
+		"@heroicons/react": "2.0.17",
 		"@next/font": "13.2.4",
 		"jotai": "2.0.3",
 		"next": "13.2.4",
